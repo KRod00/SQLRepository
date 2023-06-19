@@ -1,0 +1,19 @@
+%Store Database%
+CREATE TABLE items (id INTEGER PRIMARY KEY, name TEXT, cost INTEGER, aisle INTEGER, popularity INTEGER);
+
+INSERT INTO items VALUES(1, "Dunks", 150, 1, 5);
+INSERT INTO items VALUES(2, "AJ1", 200, 2, 5);
+INSERT INTO items VALUES(3, "Yeezy 350", 220, 3, 5);
+INSERT INTO items VALUES(4, "Yeezy 700", 220, 3, 5);
+INSERT INTO items VALUES(5, "AJ4", 200, 2, 5);
+INSERT INTO items VALUES(6, "Converse", 135, 4, 4);
+INSERT INTO items VALUES(7, "Basketball Shoes", 175, 5, 5);
+INSERT INTO items VALUES(8, "Pharell", 200, 6, 5);
+INSERT INTO items VALUES(9, "Gucci", 400, 7, 5);
+INSERT INTO items VALUES(10, "Louis V", 400, 7, 5);
+INSERT INTO items VALUES(11, "CDG", 150, 7, 5);
+INSERT INTO items VALUES(12, "DIOR", 350, 7, 5);
+INSERT INTO items VALUES(13, "UGGs", 200, 1, 5);
+INSERT INTO items VALUES(14, "Doc", 125, 8, 5);
+INSERT INTO items VALUES(15, "Vans", 60, 8, 5);
+SELECT * FROM items;
